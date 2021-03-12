@@ -7,4 +7,4 @@ They have 3D assets from [Battlefield 3](https://p3dm.ru/xfsearch/Battlefield%20
 
 ## License
 
-This repository is licensed under [](https://creativecommons.org/licenses/by/4.0/).
+This repository is licensed under [Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
