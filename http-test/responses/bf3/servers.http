@@ -1,0 +1,3725 @@
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Content-Length: 6802
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-Json: 1
+X-Node: 127.0.0.1
+Expires: Sat, 22 May 2021 04:03:59 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 22 May 2021 04:03:59 GMT
+Connection: close
+Set-Cookie: beaker.session.id=b99fa3d3bbc6496e310ca47adb2da68c; Path=/;HttpOnly;Secure
+
+{
+  "template": "serverguide.bf3index",
+  "globalContext": {
+    "currentUrl": "|bf3|servers",
+    "isAjaxFetch": false,
+    "currentCanonicalURL": "http:\/\/battlelog.battlefield.com\/bf3\/servers",
+    "useIdentity2RedirectFlow": true,
+    "session": {
+      "hasAdminAccess": false,
+      "originLaunch": false,
+      "userProducts": {},
+      "npxExploration": {},
+      "locale": {
+        "shortdate": "%d\/%m",
+        "fulldate": "%Y-%m-%d",
+        "offset": 0,
+        "time": "%H:%M"
+      },
+      "introSectionBits": 4294967295,
+      "userId": "0",
+      "postChecksum": "b99fa3d3bb",
+      "facebook": {},
+      "user": null,
+      "isLoggedIn": false,
+      "rollouts": [],
+      "userGameExpansions": {},
+      "userGames": {}
+    },
+    "systemUtcTime": 1621656239,
+    "bf4trialbannerActive": true,
+    "staticPrefix": "\/\/cdn.battlelog.com\/bl-cdn\/cdnprefix\/1323197",
+    "searchQuery": "",
+    "realm": {
+      "lang": 1,
+      "game": 2,
+      "section": 2
+    },
+    "pushConnections": [
+      {
+        "sslAddress": "beaconpush.battlelog.com",
+        "apiKey": "planet",
+        "nodeNumber": 0,
+        "channelsWithAuth": [
+          "1621699439;718484852a643d73e7fbd4a7b0fdc2b31d88dad6bp:user"
+        ],
+        "sslEnabled": true,
+        "sslWsAddress": "beaconpush.battlelog.com",
+        "channels": [
+          "bp:user"
+        ],
+        "token": "1621699439;58f95f20373cadcc618d863e1aca44bf56cda42c",
+        "user": "guest_1621656239.35",
+        "address": "beaconpush.battlelog.com",
+        "wsAddress": "beaconpush.battlelog.com",
+        "log": false
+      }
+    ],
+    "isBFHVisible": true,
+    "requestURI": "http:\/\/battlelog.battlefield.com\/bf3\/servers",
+    "forceExpandedFilter": 1,
+    "pushOperator": "planet",
+    "writeBanUntil": 0,
+    "componentName": "serverguide",
+    "hasWriteBan": false,
+    "activeMenu": "multiplayer",
+    "filePrefix": "\/\/d34ymitoc1pg7m.cloudfront.net",
+    "favGuids": [],
+    "isAjaxNavigation": true,
+    "actionName": "index",
+    "isSecure": true,
+    "banType": 0,
+    "hideComcenter": false,
+    "clientIp": "36.73.34.105",
+    "bfhbetabannerActive": false
+  },
+  "context": {
+    "serverguideAction": "serverguide-action-index",
+    "isUserScoreMultiplierOn": false,
+    "searchQuery": "",
+    "_href": "\/bf3\/servers\/",
+    "searchUsers": [],
+    "notification": null,
+    "logClientSideErrors": false,
+    "servers": [
+      {
+        "map": "MP_011",
+        "gameId": "8434381",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "1",
+        "ip": "62.104.19.227",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "db9116ce-6579-4ff3-a7f5-4fe9563cc866",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "4Netplayers Battlefield 3 Server SS For Nobs No Rules",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 8,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "XP2_Skybar",
+        "gameId": "12628668",
+        "gameExpansions": [
+          2048,
+          512,
+          2048,
+          4096,
+          8192,
+          16384
+        ],
+        "mapMode": "512",
+        "ip": "185.189.255.240",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "a188bbca-305b-4927-af37-49ebb9a872ee",
+        "port": 25240,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "2048",
+        "name": "MADE IN CCCP",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "ru"
+      },
+      {
+        "map": "MP_012",
+        "gameId": "4277381",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "94.250.199.8",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 64
+          }
+        },
+        "guid": "5f5ee282-d66f-46e4-939c-aa7e5903ecd5",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "[iFly]Vanilla Maps  | NOOBS WELCOME! | 64 Slots",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_003",
+        "gameId": "12625759",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "185.16.85.204",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 1,
+            "max": 16
+          }
+        },
+        "guid": "689b91f6-a542-4198-9ef1-24e00852264f",
+        "port": 25210,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "The Banana Republic - CCG - Original Conquest Maps",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "gb"
+      },
+      {
+        "map": "MP_001",
+        "gameId": "12628802",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "2",
+        "ip": "94.250.199.210",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 48
+          }
+        },
+        "guid": "af24d3fe-333d-4934-98b0-5b3e483d0fd2",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "Kleefeld | 24\/7 Rush Classics Only",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_Subway",
+        "gameId": "8434375",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "1",
+        "ip": "62.104.177.190",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "81c2c44c-6d8d-4a56-9913-17baecda4fc4",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "[FR] METRO 24\/24 | 1050-TICKETS - NO EXPLOSIVES",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "fr"
+      },
+      {
+        "map": "XP3_Shield",
+        "gameId": "8434460",
+        "gameExpansions": [
+          4096,
+          4096
+        ],
+        "mapMode": "64",
+        "ip": "94.250.199.192",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 24
+          }
+        },
+        "guid": "7d2f72f6-c8b9-42d1-bbc8-dff43d886be6",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "4096",
+        "name": "Battlefield 3 RANKED Server g-portal.com",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 8,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "XP3_Shield",
+        "gameId": "8434430",
+        "gameExpansions": [
+          4096,
+          0,
+          4096,
+          8192
+        ],
+        "mapMode": "64",
+        "ip": "173.199.105.31",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "beae2e1c-d232-4385-8dd5-a55b10cb7889",
+        "port": 25200,
+        "punkbuster": 0,
+        "playlist": 0,
+        "gameExpansion": "4096",
+        "name": "UKF-NO JETS",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "XP4_FD",
+        "gameId": "4277486",
+        "gameExpansions": [
+          8192,
+          8192
+        ],
+        "mapMode": "64",
+        "ip": "94.250.199.89",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621656232,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 10,
+            "max": 32
+          }
+        },
+        "guid": "86fd8e84-9d67-48af-8801-aea0435601b4",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "8192",
+        "name": "[JAH] Warriors #08 - Markaz Monolith - 48 Slots",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_017",
+        "gameId": "12628700",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "8",
+        "ip": "62.104.177.235",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "87adeac7-1ef1-435b-9f4a-19c16b2d293c",
+        "port": 25200,
+        "punkbuster": 0,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "4Netplayers GacGuG",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 8,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_Subway",
+        "gameId": "8434250",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "194.97.167.11",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 64
+          }
+        },
+        "guid": "58511b06-7444-4b74-9cec-5a63d8c32131",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "4Netplayers.com - FAST XP \/ Metro\/Conquest 24\/7",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_017",
+        "gameId": "4277534", 
+        "gameExpansions": [
+          0,
+          0,
+          512,
+          2048,
+          4096,
+          8192,
+          16384
+        ],
+        "mapMode": "32",
+        "ip": "94.250.199.195",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 24
+          }
+        },
+        "guid": "ef948976-7cc3-4e47-874f-65666c2995b3",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "*BF2L* Mixed Mode",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_Subway",
+        "gameId": "4277185",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "192.223.26.100",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621656232,
+        "slots": {
+          "1": {
+            "current": 2,
+            "max": 10
+          },
+          "2": {
+            "current": 48,
+            "max": 48
+          }
+        },
+        "guid": "595db209-f43d-4673-8128-44f5f16e4e23",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "# #  METRO NO LAG | ALL WEAPONS | TBGCLAN.COM",
+        "settings": {},
+        "fairfight": 0,
+        "region": 1,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "lax",
+        "country": "us"
+      },
+      {
+        "map": "MP_Subway",
+        "gameId": "4277533",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "94.250.199.200",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655833,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 9,
+            "max": 32
+          }
+        },
+        "guid": "503d0ed7-6f6b-42d8-b3e0-ed23c0a68c00",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "[JAH] Warriors #02 - Metro Only - No Explosives - 64 Slots",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_011",
+        "gameId": "8434404",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "136.243.119.200",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621656182,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 11,
+            "max": 64
+          }
+        },
+        "guid": "5abee418-2e07-4784-bc12-65c30593a738",
+        "port": 25210,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "#25069 | XLGAMES.PRO",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "ru"
+      },
+      {
+        "map": "MP_013",
+        "gameId": "4277537",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "94.250.199.117",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 64
+          }
+        },
+        "guid": "d58af3b5-ac14-4ad0-b1be-45c8c63451b8",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "TLR #2 | Urban Universe | tlr.gg",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_001",
+        "gameId": "12628781",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "1",
+        "ip": "94.250.199.57",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 10
+          }
+        },
+        "guid": "e7f34877-e375-4951-815c-73829b070a60",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "Erikas Bazar B-Flag 5vs5 NOOBS WELCOME Jahrmarkt",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 4,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "XP2_Skybar",
+        "gameId": "12628800",
+        "gameExpansions": [
+          2048,
+          2048
+        ],
+        "mapMode": "1024",
+        "ip": "62.104.17.118",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "955dd533-ef12-493c-b83f-c98731e657c9",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "2048",
+        "name": "Close Quarters Mayhem - 4netplayers",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "gb"
+      },
+      {
+        "map": "MP_017",
+        "gameId": "8434350",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "185.189.255.241",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "38fdd4c9-7862-4b95-a240-d98a9a4e854a",
+        "port": 25220,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "TAHK HA 'C' | XL-GAMES.RU",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "ru"
+      },
+      {
+        "map": "MP_011",
+        "gameId": "4277525",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "32",
+        "ip": "5.101.165.165",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621656232,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 24
+          }
+        },
+        "guid": "a00912ce-501b-4a0f-94c2-1f9732a8acf4",
+        "port": 34200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "INFERNO ONLINE",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_017",
+        "gameId": "4277456",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "32",
+        "ip": "173.237.55.14",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 16
+          }
+        },
+        "guid": "9c4ec7f1-d94d-440c-9513-c8247e9657e7",
+        "port": 25200,
+        "punkbuster": 0,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "4Netplayers Battlefield 3 Server CNJS",
+        "settings": {},
+        "fairfight": 0,
+        "region": 1,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "us"
+      },
+      {
+        "map": "MP_017",
+        "gameId": "8434421",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "32",
+        "ip": "176.9.205.116",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "789c3578-e626-4395-b5b5-d8c0d5b6eb89",
+        "port": 25200,
+        "punkbuster": 0,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "[TNT]#3 NOSHAHR CANALS | discord.tnt.community",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_007",
+        "gameId": "4277536",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 0,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 10
+          }
+        },
+        "guid": "d11f6f57-8e17-452f-a5ef-599c671b55e2",
+        "port": 0,
+        "punkbuster": 0,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "TLR #0 | Dogfighter's Dream | tlr.gg",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 1,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "08954151:ce8aa1520b05b18a638902cd58375f6d88275f21",
+        "preset": 8,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_001",
+        "gameId": "8433860",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "185.50.104.68",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 64
+          }
+        },
+        "guid": "47029fcf-563f-4aa3-91da-d5910c7f7cd8",
+        "port": 25502,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "TODOS OS MAPAS - Battlefield da Depressao & i3D.net",
+        "settings": {},
+        "fairfight": 0,
+        "region": 2,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "iad",
+        "country": "br"
+      },
+      {
+        "map": "MP_017",
+        "gameId": "8434391",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "32",
+        "ip": "162.248.88.121",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "e1f471fc-8163-4540-a3db-35c0f31bb01d",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "Antifa's Clubhouse",
+        "settings": {},
+        "fairfight": 0,
+        "region": 1,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 8,
+        "pingSite": "iad",
+        "country": "us"
+      },
+      {
+        "map": "MP_011",
+        "gameId": "12628697",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "194.97.167.148",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 16
+          }
+        },
+        "guid": "197decc8-bda9-469d-9db8-8ad631fca2a2",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "KingDingALing - ParisInLove - Seine & Metro - 24-7",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 8,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_012",
+        "gameId": "4277390",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "194.97.46.220",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "66056694-6db1-4b98-992a-eeb151affc50",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "Die Deutsche Antwort - Firestorm only  - high Tickets",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_001",
+        "gameId": "8434199",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "1",
+        "ip": "",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 0,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 16
+          }
+        },
+        "guid": "f8b0d7d6-7f78-4d33-bc29-32fa25f871b4",
+        "port": 0,
+        "punkbuster": 0,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "Grandest of Bazaars",
+        "settings": {},
+        "fairfight": 0,
+        "region": 1,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 1,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "23244ed2:39127b2c8507308aa89c615498d23a6c512da39f",
+        "preset": 1,
+        "pingSite": "lax",
+        "country": "us"
+      },
+      {
+        "map": "MP_Subway",
+        "gameId": "12628744",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "2",
+        "ip": "173.237.55.15",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 48
+          }
+        },
+        "guid": "616f15df-356d-4588-b92d-130c0330ab8f",
+        "port": 25200,
+        "punkbuster": 0,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "[PNCH] RUSH-CONQUEST CLASSIC MAP",
+        "settings": {},
+        "fairfight": 0,
+        "region": 1,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "us"
+      },
+      {
+        "map": "MP_017",
+        "gameId": "4277485",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "32",
+        "ip": "94.250.194.24",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621656228,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 31,
+            "max": 64
+          }
+        },
+        "guid": "24babd76-1feb-4d3f-8b18-3113d29c1bcf",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "[JAH] Warriors #07 - Noshahr Canals Only - TDM - 64 Slots",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "XP3_Alborz",
+        "gameId": "4277491",
+        "gameExpansions": [
+          4096,
+          4096
+        ],
+        "mapMode": "64",
+        "ip": "173.199.82.59",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 16
+          }
+        },
+        "guid": "4bf19caa-7826-4b24-bf1d-cbea6bbb5476",
+        "port": 25200,
+        "punkbuster": 0,
+        "playlist": 0,
+        "gameExpansion": "4096",
+        "name": "[Forever BF3]Welcome! QQGroup:778473563",
+        "settings": {},
+        "fairfight": 0,
+        "region": 32,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "nrt",
+        "country": "jp"
+      },
+      {
+        "map": "MP_001",
+        "gameId": "4276946",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "2",
+        "ip": "94.250.199.30",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 0,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 16
+          }
+        },
+        "guid": "a84a142a-c03e-47f6-9657-bb44f8f6f914",
+        "port": 25200,
+        "punkbuster": 0,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "Zexys BF3 Server",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_017",
+        "gameId": "8434024",
+        "gameExpansions": [
+          0,
+          0,
+          2048,
+          4096,
+          8192,
+          16384
+        ],
+        "mapMode": "32",
+        "ip": "94.250.199.174",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "4e1190a6-18e0-4705-9b92-514fd5fbd1f4",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "CLS Battlefield 3 Server Friend NO CHEATERS  ISTANT BAN",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_017",
+        "gameId": "4277162",
+        "gameExpansions": [
+          0,
+          0,
+          512,
+          2048,
+          4096,
+          8192,
+          16384
+        ],
+        "mapMode": "2048",
+        "ip": "46.251.234.50",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 20
+          }
+        },
+        "guid": "2aace941-4b57-4103-b976-4d88075f53be",
+        "port": 34200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "COMMANDO FADA_MULTI MODS \/ VOTE MAPS \/  NO RULES",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 2,
+        "pingSite": "ams",
+        "country": "fr"
+      },
+      {
+        "map": "XP4_Parl",
+        "gameId": "4277514",
+        "gameExpansions": [
+          8192,
+          0,
+          512,
+          2048,
+          4096,
+          8192,
+          16384
+        ],
+        "mapMode": "32",
+        "ip": "185.189.255.240",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 48
+          }
+        },
+        "guid": "a6c289bc-e605-45b2-91ef-a4e3e782281d",
+        "port": 25210,
+        "punkbuster": 0,
+        "playlist": 0,
+        "gameExpansion": "8192",
+        "name": "clubkent.ru * All maps * All modes * For noobs",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "ru"
+      },
+      {
+        "map": "MP_007",
+        "gameId": "8434085",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "203.97.27.200",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "67b91afd-d6e1-4051-a164-24db8210e538",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "GetSome.co.nz | CTF\/CQ | 200% Ticket",
+        "settings": {},
+        "fairfight": 0,
+        "region": 64,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "syd",
+        "country": "nz"
+      },
+      {
+        "map": "MP_017",
+        "gameId": "4277488",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "32",
+        "ip": "94.250.194.90",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "f857ad52-86da-453e-be93-08dee4013cad",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "- #8 [WBKS] 24\/7 TDM Noshahr Canals - NoRules {HighTickets}",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "XP2_Palace",
+        "gameId": "8434317",
+        "gameExpansions": [
+          2048,
+          0,
+          512,
+          2048,
+          4096,
+          8192,
+          16384
+        ],
+        "mapMode": "512",
+        "ip": "185.189.255.242",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 64
+          }
+        },
+        "guid": "0259de0e-0deb-4df1-a80f-cfea1ec891a0",
+        "port": 25220,
+        "punkbuster": 0,
+        "playlist": 0,
+        "gameExpansion": "2048",
+        "name": "FEAR CLAN__ MbI u3 70x__ NO CHEATERS 150%** 25RUS**",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 2,
+        "pingSite": "ams",
+        "country": "ru"
+      },
+      {
+        "map": "MP_007",
+        "gameId": "8434195",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "1",
+        "ip": "173.199.92.233",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "5a44a473-80f2-4c8e-9d2a-db3a988531f6",
+        "port": 25210,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "FraggedNation BF3 Conquest|Rush",
+        "settings": {},
+        "fairfight": 0,
+        "region": 1,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "iad",
+        "country": "us"
+      },
+      {
+        "map": "XP1_003",
+        "gameId": "12628714",
+        "gameExpansions": [
+          512,
+          512
+        ],
+        "mapMode": "128",
+        "ip": "5.101.165.72",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "d8088433-474b-45a7-bc8d-cd7f99f622ca",
+        "port": 39200,
+        "punkbuster": 0,
+        "playlist": 0,
+        "gameExpansion": "512",
+        "name": "Sharqi  Nonstop  24\/7",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_017",
+        "gameId": "12628703",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "32",
+        "ip": "62.21.98.151",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "6bf5398c-1d2e-46c0-a57b-481f411dcf0f",
+        "port": 48315,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "[SL] Stalker Legion [HC] TDM",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "pl"
+      },
+      {
+        "map": "MP_Subway",
+        "gameId": "8434424",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "108.61.227.165",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621656115,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 1,
+            "max": 32
+          }
+        },
+        "guid": "88a94e00-fd55-4364-8127-82fd656f4227",
+        "port": 25210,
+        "punkbuster": 0,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "Noobs Gaming (No Jet Killing, But Dogfighting OK) 8)~",
+        "settings": {},
+        "fairfight": 0,
+        "region": 64,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "syd",
+        "country": "au"
+      },
+      {
+        "map": "MP_017",
+        "gameId": "12628401",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "32",
+        "ip": "203.97.27.201",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 28
+          }
+        },
+        "guid": "37e21bff-cd82-45e2-804d-29612dd26da9",
+        "port": 25202,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "GetSome.co.nz | 24\/7 NOSHAHR | 200% Tick",
+        "settings": {},
+        "fairfight": 0,
+        "region": 64,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "syd",
+        "country": "nz"
+      },
+      {
+        "map": "MP_012",
+        "gameId": "4277474",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 0,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 16
+          }
+        },
+        "guid": "8b74f074-52b4-435d-8966-78e4d5024a47",
+        "port": 0,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "Dogfight SEX Hub",
+        "settings": {},
+        "fairfight": 0,
+        "region": 1,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 1,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "6cfa07f4:2dfea90e08b2843202ffa9d92484cdec7bf25910",
+        "preset": 8,
+        "pingSite": "lax",
+        "country": "us"
+      },
+      {
+        "map": "XP2_Skybar",
+        "gameId": "12628352",
+        "gameExpansions": [
+          2048,
+          2048
+        ],
+        "mapMode": "512",
+        "ip": "94.250.199.121",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 24
+          }
+        },
+        "guid": "a9bf60b7-133c-49b7-9521-230ef10a278b",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "2048",
+        "name": "GUN MASTER FOR OLD TIMES SAKE",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 2,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_013",
+        "gameId": "12628693",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "2",
+        "ip": "94.250.199.206",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "c05ba16a-c0cd-431e-9196-5e309913bac6",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "Rush - No Rules - Vote best 3 Maps -  64 Slots",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_007",
+        "gameId": "8434306",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "68.232.161.189",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621656212,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 29,
+            "max": 64
+          }
+        },
+        "guid": "0ac6d05c-884a-4439-9d80-4dbe17fe0554",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "[USA] VINNY'S FUN HOUSE | Epic Air Maps | Admin Balanced Teams",
+        "settings": {},
+        "fairfight": 0,
+        "region": 1,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "lax",
+        "country": "us"
+      },
+      {
+        "map": "MP_013",
+        "gameId": "8434483",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "8",
+        "ip": "",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 0,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 16
+          }
+        },
+        "guid": "3033fd4f-4124-49f7-9aa1-52c8454503a7",
+        "port": 0,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "Schinkenbrot",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 1,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "2acf9a69:d3d6bf21725b7e764f87fa8c7433cda4387e2c4d",
+        "preset": 8,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_Subway",
+        "gameId": "8434474",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "1",
+        "ip": "185.209.177.38",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 10
+          }
+        },
+        "guid": "fafbbcfd-0b5d-435f-8d55-d680a8c93ea8",
+        "port": 25210,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "[myrcon.net] Metro No Explosives | Sponsored by fragnet",
+        "settings": {},
+        "fairfight": 0,
+        "region": 1,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 8,
+        "pingSite": "lax",
+        "country": "us"
+      },
+      {
+        "map": "MP_007",
+        "gameId": "4277388",
+        "gameExpansions": [
+          0,
+          0,
+          2048
+        ],
+        "mapMode": "64",
+        "ip": "194.97.167.206",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 16
+          }
+        },
+        "guid": "8e392b78-aa60-4146-8565-206c3aa2d887",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "RuhrpOtts Finest powered by 4Netplayers",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 8,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_Subway",
+        "gameId": "8434346",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "185.189.255.240",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "98d66b2a-34d2-4881-959c-abc50c4e10e9",
+        "port": 25230,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "#30108 | XLGAMES.PRO",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 8,
+        "pingSite": "ams",
+        "country": "ru"
+      },
+      {
+        "map": "MP_007",
+        "gameId": "12628636",
+        "gameExpansions": [
+          0,
+          0,
+          512,
+          2048,
+          4096,
+          8192,
+          16384
+        ],
+        "mapMode": "64",
+        "ip": "185.189.255.243",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "f39289e0-9357-4fa8-a093-daa44923dfeb",
+        "port": 25210,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "Patriot BF3 \/ All Maps And Modes \/ No Ban",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "ru"
+      },
+      {
+        "map": "MP_017",
+        "gameId": "4277016",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "32",
+        "ip": "94.250.199.211",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "911b3107-d924-40b2-882c-c4668779066c",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "[777] oxxx{]:::::> KNIFE & DEFIB ONLY <:::::[}xxxo",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_017",
+        "gameId": "12628787",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "32",
+        "ip": "94.250.199.138",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "0450cb67-a478-46ce-ac7e-eb1a26dc6c18",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "New Server on the Rock",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_011",
+        "gameId": "12628696",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "32",
+        "ip": "94.250.199.18",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "39d297a3-b23c-48c4-baae-856aec2cfd34",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "NO RETREAT NO SURRENDER MIX TDM 24\/7",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "XP3_Shield",
+        "gameId": "12628341",
+        "gameExpansions": [
+          4096,
+          4096
+        ],
+        "mapMode": "64",
+        "ip": "94.250.199.228",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 24
+          }
+        },
+        "guid": "33e41cc8-d4f3-4355-93fa-7c8d0beb21f9",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "4096",
+        "name": "BiA Clan Server  - Armored Shield only ! -750 Tickets",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "XP3_Desert",
+        "gameId": "12628468",
+        "gameExpansions": [
+          4096,
+          0,
+          512,
+          2048,
+          4096,
+          8192,
+          16384
+        ],
+        "mapMode": "64",
+        "ip": "173.199.105.11",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 16
+          }
+        },
+        "guid": "a9ac6954-1d55-44da-acc6-8ead61ad4ad6",
+        "port": 25200,
+        "punkbuster": 0,
+        "playlist": 0,
+        "gameExpansion": "4096",
+        "name": "[BiA] NOOBS welcome - Mixed Maps & Mods",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "XP5_002",
+        "gameId": "8433937",
+        "gameExpansions": [
+          16384,
+          0,
+          4096,
+          16384
+        ],
+        "mapMode": "64",
+        "ip": "85.14.195.50",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 16
+          }
+        },
+        "guid": "57d95579-18dd-46af-98c1-154ca8d07044",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "16384",
+        "name": "Roadkill Cafe Flagrun - No Combat Team Match",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "de"
+      },
+      {
+        "map": "MP_017",
+        "gameId": "12628799",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "32",
+        "ip": "194.97.46.183",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 24
+          }
+        },
+        "guid": "9494179c-6d39-447e-ace8-dc9410dff11c",
+        "port": 25200,
+        "punkbuster": 1,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "TASK - NOSHAHR ONLY - TDM - NO RULES - AUTO ADMIN - 4NETPLAYERS",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "cz"
+      },
+      {
+        "map": "MP_007",
+        "gameId": "12628503",
+        "gameExpansions": [
+          0,
+          0
+        ],
+        "mapMode": "64",
+        "ip": "176.9.205.120",
+        "matchId": "0",
+        "protocolVersionString": "67",
+        "extendedInfo": {
+          "message": "",
+          "bannerUrl": "",
+          "desc": ""
+        },
+        "game": 2,
+        "ranked": 1,
+        "online": 1,
+        "platform": 1,
+        "tickRateMax": 30,
+        "updatedAt": 1621655762,
+        "slots": {
+          "1": {
+            "current": 0,
+            "max": 10
+          },
+          "2": {
+            "current": 0,
+            "max": 32
+          }
+        },
+        "guid": "f0635f52-2b5c-4085-92b1-d18aeb38ed6e",
+        "port": 25200,
+        "punkbuster": 0,
+        "playlist": 0,
+        "gameExpansion": "0",
+        "name": "[WATAHA] SUPER SERVER  JOIN",
+        "settings": {},
+        "fairfight": 0,
+        "region": 16,
+        "mapVariant": 0,
+        "ping": 999,
+        "serverType": 0,
+        "experience": 0,
+        "tickRate": 30,
+        "hasPassword": 0,
+        "maps": {
+          "maps": [],
+          "currentMapRound": -1,
+          "nextMapIndex": -1,
+          "currentMapIndex": -1,
+          "numberMapRounds": -1
+        },
+        "secret": "",
+        "preset": 1,
+        "pingSite": "ams",
+        "country": "pl"
+      }
+    ],
+    "filter": {
+      "playlists": [],
+      "tickRates": null,
+      "modeRotation": -1,
+      "pingSite": null,
+      "commanderSlots": null,
+      "ranked": -1,
+      "spectatorGameSize": null,
+      "protocolVersionString": "67",
+      "gamepresets": [],
+      "game": 2,
+      "gamemodes": [],
+      "experiences": null,
+      "platform": 1,
+      "filtered": 1,
+      "premium": -1,
+      "slots": [],
+      "serverTypes": null,
+      "maps": [],
+      "password": -1,
+      "useAdvanced": -1,
+      "name": "",
+      "gameexpansions": [],
+      "gameSize": [],
+      "country": [],
+      "commanderGameSize": null,
+      "settings": [],
+      "useLocation": -1,
+      "regions": [],
+      "excludeExpansions": null,
+      "includeExpansions": null,
+      "spectatorSlots": null,
+      "maxPlayers": null,
+      "mapRotation": -1
+    },
+    "userMessageBox": null,
+    "searchPersonas": [],
+    "serverguideTab": "index",
+    "enableVideoBackground": "0",
+    "isPremiumScoreMultiplierOn": false,
+    "titleSection": "Battlefield 3"
+  }
+}
