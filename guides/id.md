@@ -19,3 +19,4 @@
 `8192` - Battlefield Hardline
 
 # Maps
+Check out [maps.json](/maps.json).
