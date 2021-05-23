@@ -12,7 +12,7 @@ X-AjaxNavigation: 1
 
 ###
 
-GET https://battlelog.battlefield.com/bf3/servers HTTP/1.1
+GET https://battlelog.battlefield.com/bf4/servers HTTP/1.1
 X-Requested-With: XMLHttpRequest
 X-AjaxNavigation: 1
 
