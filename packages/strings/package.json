@@ -1,11 +1,7 @@
 {
-  "name": "@blscraps/strings",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "name": "@nefomemes/blscraps-strings",
+  "version": "1.0.0",
+  "description": "A collection of useful JSON files for Battlefield Battlelog. This package contains IDs and it's references, including game modes, expansion packs, games, maps, etc.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BLThunderstorm/BattlelogScraps.git"
