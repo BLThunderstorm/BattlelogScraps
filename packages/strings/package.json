@@ -11,5 +11,6 @@
   "bugs": {
     "url": "https://github.com/BLThunderstorm/BattlelogScraps/issues"
   },
-  "homepage": "https://github.com/BLThunderstorm/BattlelogScraps#readme"
+  "homepage": "https://github.com/BLThunderstorm/BattlelogScraps#readme",
+  "private": false
 }
