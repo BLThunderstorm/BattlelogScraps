@@ -1,0 +1,464 @@
+
+GET https://battlelog.battlefield.com/bf4/user/overviewBoxStats/2832658994883918489 HTTP/1.1
+X-Requested-With: XMLHttpRequest
+X-AjaxNavigation: 1
+
+###
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 2166
+Content-Encoding: gzip
+Vary: Accept-Encoding
+X-Node: 127.0.0.1
+Expires: Thu, 17 Jun 2021 11:25:04 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Thu, 17 Jun 2021 11:25:04 GMT
+Connection: close
+
+{
+  "type": "success",
+  "message": "OK",
+  "data": {
+    "soldiersBox": [
+      {
+        "activeEmblem": {
+          "jsonShapeData": "{\"objects\":[{\"opacity\":0.45,\"angle\":0,\"flipX\":false,\"flipY\":false,\"top\":159.3443044999,\"height\":323.8655071376,\"width\":107.6940389504,\"asset\":\"Stroke\",\"selectable\":true,\"left\":54.154953549,\"fill\":\"#00BFF3\"},{\"opacity\":0.8,\"angle\":0,\"flipX\":false,\"flipY\":false,\"top\":161.564793927,\"height\":328.8244351345,\"width\":108.0810482399,\"asset\":\"Stroke\",\"selectable\":true,\"left\":161.9554018841,\"fill\":\"#FFFFFF\"},{\"opacity\":0.63,\"angle\":0,\"flipX\":false,\"flipY\":false,\"top\":183.6343849193,\"height\":416.4161687836,\"width\":105.7721869698,\"asset\":\"Stroke\",\"selectable\":true,\"left\":268.1459084765,\"fill\":\"#FF0000\"},{\"opacity\":1,\"angle\":55.3934185735,\"flipX\":false,\"flipY\":false,\"top\":175.7537598264,\"height\":292.5506344842,\"width\":40.3474398531,\"asset\":\"Stroke\",\"selectable\":true,\"left\":149.970490473,\"fill\":\"#FBAF5C\"},{\"opacity\":1,\"angle\":55.3,\"flipX\":false,\"flipY\":false,\"top\":258.5988097221,\"height\":42.6062142652,\"width\":40.1574229372,\"asset\":\"Circle\",\"selectable\":true,\"left\":30.0126419038,\"fill\":\"#FBAF5C\"},{\"opacity\":1,\"angle\":55.3,\"flipX\":false,\"flipY\":false,\"top\":91.5988097221,\"height\":42.6062142652,\"width\":40.1574229372,\"asset\":\"Circle\",\"selectable\":true,\"left\":271.0126419038,\"fill\":\"#FBAF5C\"},{\"opacity\":1,\"angle\":283.917900079,\"flipX\":false,\"flipY\":false,\"top\":228.9993077441,\"height\":19.2946295873,\"width\":59.6906501279,\"asset\":\"Wingpart\",\"selectable\":true,\"left\":70.496807125,\"fill\":\"#FFF79A\"},{\"opacity\":1,\"angle\":283.917900079,\"flipX\":false,\"flipY\":false,\"top\":193.9993077441,\"height\":19.2946295873,\"width\":59.6906501279,\"asset\":\"Wingpart\",\"selectable\":true,\"left\":123.496807125,\"fill\":\"#FFF79A\"},{\"opacity\":1,\"angle\":283.917900079,\"flipX\":false,\"flipY\":false,\"top\":151.9993077441,\"height\":19.2946295873,\"width\":59.6906501279,\"asset\":\"Wingpart\",\"selectable\":true,\"left\":180.496807125,\"fill\":\"#FFF79A\"},{\"opacity\":1,\"angle\":283.917900079,\"flipX\":false,\"flipY\":false,\"top\":119.9993077441,\"height\":19.2946295873,\"width\":59.6906501279,\"asset\":\"Wingpart\",\"selectable\":true,\"left\":229.496807125,\"fill\":\"#FFF79A\"}]}",
+          "platform": 1,
+          "game": 8192,
+          "cdnUrl": "http:\/\/eaassets-a.akamaihd.net\/battlelog\/prod\/emblem\/19\/81\/[SIZE]\/2955057798105692595.[FORMAT]?v=1490807783",
+          "updatedAt": 1490807783,
+          "ownerStringId": "2832658994883918489",
+          "ownerType": "USER",
+          "id": "2955057798105692595",
+          "createdAt": 1427040937
+        },
+        "timePlayed": 2389990,
+        "persona": {
+          "picture": "us_land",
+          "userId": "2832658994883918489",
+          "user": null,
+          "updatedAt": 1445644968,
+          "firstPartyId": "",
+          "personaId": "229647341",
+          "personaName": "DANNYonPC",
+          "gamesLegacy": "0",
+          "namespace": "cem_ea_id",
+          "gamesJson": "{\"1\":\"15734\"}",
+          "games": {
+            "1": "15734"
+          },
+          "clanTag": "tB"
+        },
+        "kills": 35170,
+        "deaths": 14914,
+        "npStatus": null,
+        "legendaryLevel": 0,
+        "rsNumWins": 0,
+        "rsNumLosses": 0,
+        "rank": 140,
+        "platform": 1,
+        "game": 2048,
+        "score": 46346886,
+        "numLosses": 866,
+        "isPersonaBanned": false,
+        "active": true,
+        "skill": 303,
+        "dogtagsForPersona": {
+          "advancedDogTag": {
+            "statValue": null,
+            "index": 410,
+            "stat": null,
+            "isAdvanced": true,
+            "backgroundInverted": false,
+            "nameSID": "WARSAW_ID_P_XP5_DRXP5JPC_NAME",
+            "statUnit": null,
+            "image": "advanced410",
+            "statSID": "",
+            "imageConfig": {
+              "category": "dogtags",
+              "slug": "advanced410",
+              "texture": "UI\/Art\/Persistence\/DogTag\/drXP5_JPC",
+              "versions": {
+                "mobile": {
+                  "path": "warsaw\/gamedata\/dogtags\/mobile\/advanced410.png",
+                  "isSprite": false,
+                  "height": 64,
+                  "name": "mobile",
+                  "width": 128
+                },
+                "xlarge": {
+                  "path": "warsaw\/gamedata\/dogtags\/xlarge\/advanced410.png",
+                  "isSprite": false,
+                  "height": 128,
+                  "name": "xlarge",
+                  "width": 256
+                },
+                "large": {
+                  "path": "warsaw\/gamedata\/dogtags\/large\/advanced410.png",
+                  "isSprite": false,
+                  "height": 92,
+                  "name": "large",
+                  "width": 184
+                },
+                "mediumns": {
+                  "path": "warsaw\/gamedata\/dogtags\/mediumns\/advanced410.png",
+                  "isSprite": false,
+                  "height": 64,
+                  "name": "mediumns",
+                  "width": 128
+                },
+                "small": {
+                  "path": "warsaw\/gamedata\/dogtags\/small.png",
+                  "isSprite": true,
+                  "height": 28,
+                  "name": "small",
+                  "width": 56
+                },
+                "smallns": {
+                  "path": "warsaw\/gamedata\/dogtags\/smallns\/advanced410.png",
+                  "isSprite": false,
+                  "height": 28,
+                  "name": "smallns",
+                  "width": 56
+                }
+              }
+            }
+          },
+          "basicDogTag": {
+            "statValue": null,
+            "index": 283,
+            "stat": null,
+            "isAdvanced": false,
+            "backgroundInverted": true,
+            "nameSID": "WARSAW_ID_DLPR_NAME",
+            "statUnit": null,
+            "image": "basic283",
+            "statSID": null,
+            "imageConfig": {
+              "category": "dogtags",
+              "slug": "basic283",
+              "texture": "UI\/Art\/Persistence\/DogTag\/dlXP4_AS10",
+              "versions": {
+                "mobile": {
+                  "path": "warsaw\/gamedata\/dogtags\/mobile\/basic283.png",
+                  "isSprite": false,
+                  "height": 64,
+                  "name": "mobile",
+                  "width": 128
+                },
+                "xlarge": {
+                  "path": "warsaw\/gamedata\/dogtags\/xlarge\/basic283.png",
+                  "isSprite": false,
+                  "height": 128,
+                  "name": "xlarge",
+                  "width": 256
+                },
+                "large": {
+                  "path": "warsaw\/gamedata\/dogtags\/large\/basic283.png",
+                  "isSprite": false,
+                  "height": 92,
+                  "name": "large",
+                  "width": 184
+                },
+                "mediumns": {
+                  "path": "warsaw\/gamedata\/dogtags\/mediumns\/basic283.png",
+                  "isSprite": false,
+                  "height": 64,
+                  "name": "mediumns",
+                  "width": 128
+                },
+                "small": {
+                  "path": "warsaw\/gamedata\/dogtags\/small.png",
+                  "isSprite": true,
+                  "height": 28,
+                  "name": "small",
+                  "width": 56
+                },
+                "smallns": {
+                  "path": "warsaw\/gamedata\/dogtags\/smallns\/basic283.png",
+                  "isSprite": false,
+                  "height": 28,
+                  "name": "smallns",
+                  "width": 56
+                }
+              }
+            }
+          }
+        },
+        "numWins": 1228
+      },
+      {
+        "activeEmblem": null,
+        "timePlayed": 24001300,
+        "persona": {
+          "picture": "bf3-us-engineer2",
+          "userId": "2832658994883918489",
+          "user": null,
+          "updatedAt": 1445644968,
+          "firstPartyId": "",
+          "personaId": "229647341",
+          "personaName": "DANNYonPC",
+          "gamesLegacy": "0",
+          "namespace": "cem_ea_id",
+          "gamesJson": "{\"1\":\"15734\"}",
+          "games": {
+            "1": "15734"
+          },
+          "clanTag": ""
+        },
+        "kills": 290270,
+        "deaths": 357453,
+        "npStatus": null,
+        "legendaryLevel": 0,
+        "rsNumWins": 0,
+        "rsNumLosses": 0,
+        "rank": 145,
+        "platform": 1,
+        "game": 2,
+        "score": 192600997888,
+        "numLosses": 1520,
+        "isPersonaBanned": false,
+        "active": true,
+        "skill": 0,
+        "dogtagsForPersona": {
+          "advancedDogTag": {
+            "statValue": 99999,
+            "index": 312,
+            "stat": "c___k_ghvs",
+            "isAdvanced": true,
+            "backgroundInverted": false,
+            "nameSID": "BF3_ID_DT_XP5_N_DTA_COMBATEFFICIENCY",
+            "statUnit": "other",
+            "image": "xp5_a_05_true_combat_efficiency",
+            "statSID": "BF3_ID_DT_XP5_STAT_COMBATEFFICIENCY",
+            "imageConfig": null
+          },
+          "basicDogTag": {
+            "statValue": null,
+            "index": 179,
+            "stat": null,
+            "isAdvanced": false,
+            "backgroundInverted": true,
+            "nameSID": "BF3_ID_DT_XP3_PREM2_N_DTB01_GENERAL",
+            "statUnit": null,
+            "image": "left_premium",
+            "statSID": null,
+            "imageConfig": null
+          }
+        },
+        "numWins": 3406
+      },
+      {
+        "activeEmblem": null,
+        "timePlayed": 3215,
+        "persona": {
+          "picture": null,
+          "userId": "2832658994883918489",
+          "user": null,
+          "updatedAt": 1445644968,
+          "firstPartyId": "",
+          "personaId": "229647341",
+          "personaName": "DANNYonPC",
+          "gamesLegacy": "0",
+          "namespace": "cem_ea_id",
+          "gamesJson": "{\"1\":\"15734\"}",
+          "games": {
+            "1": "15734"
+          },
+          "clanTag": null
+        },
+        "kills": 35,
+        "deaths": 63,
+        "npStatus": null,
+        "legendaryLevel": 0,
+        "rsNumWins": 0,
+        "rsNumLosses": 0,
+        "rank": 7,
+        "platform": 1,
+        "game": 4096,
+        "score": 22999,
+        "numLosses": 4,
+        "isPersonaBanned": false,
+        "active": true,
+        "skill": 0,
+        "dogtagsForPersona": null,
+        "numWins": 2
+      },
+      {
+        "activeEmblem": {
+          "jsonShapeData": "{\"objects\":[{\"opacity\":1,\"angle\":0,\"flipX\":false,\"flipY\":false,\"top\":159.0895894557,\"height\":197.5723787209,\"width\":87.4967801576,\"asset\":\"Number1\",\"selectable\":true,\"left\":152.1800100165,\"fill\":\"#FFFFFF\"},{\"opacity\":1,\"angle\":0,\"flipX\":false,\"flipY\":false,\"top\":164.4485026923,\"height\":200.6045522479,\"width\":88.8396066306,\"asset\":\"Number1\",\"selectable\":true,\"left\":147.851423253,\"fill\":\"#000000\"}]}",
+          "platform": 1,
+          "game": 8192,
+          "cdnUrl": "http:\/\/eaassets-a.akamaihd.net\/battlelog\/prod\/emblem\/963\/83\/[SIZE]\/2955057809808871603.[FORMAT]?v=1513125549",
+          "updatedAt": 1513125549,
+          "ownerStringId": "2832658994883918489",
+          "ownerType": "USER",
+          "id": "2955057809808871603",
+          "createdAt": 1513125478
+        },
+        "timePlayed": 2348980,
+        "persona": {
+          "picture": "CRIM_STREET_Mechanic_Stealth",
+          "userId": "2832658994883918489",
+          "user": null,
+          "updatedAt": 1445644968,
+          "firstPartyId": "",
+          "personaId": "229647341",
+          "personaName": "DANNYonPC",
+          "gamesLegacy": "0",
+          "namespace": "cem_ea_id",
+          "gamesJson": "{\"1\":\"15734\"}",
+          "games": {
+            "1": "15734"
+          },
+          "clanTag": "tB"
+        },
+        "kills": 45573,
+        "deaths": 29483,
+        "npStatus": null,
+        "legendaryLevel": 1,
+        "rsNumWins": 0,
+        "rsNumLosses": 0,
+        "rank": 150,
+        "platform": 1,
+        "game": 8192,
+        "score": 32738294,
+        "numLosses": 907,
+        "isPersonaBanned": false,
+        "active": true,
+        "skill": 0,
+        "dogtagsForPersona": null,
+        "numWins": 1290
+      }
+    ],
+    "userGames": {
+      "32": [
+        1
+      ],
+      "1": [
+        1
+      ],
+      "2": [
+        1
+      ],
+      "4": [
+        1
+      ],
+      "4096": [
+        1
+      ],
+      "8192": [
+        1
+      ],
+      "8": [
+        2
+      ],
+      "64": [
+        1
+      ],
+      "128": [
+        2
+      ],
+      "256": [
+        1
+      ],
+      "16": [
+        1
+      ],
+      "512": [
+        2
+      ],
+      "2048": [
+        1
+      ],
+      "1024": [
+        1
+      ]
+    },
+    "userGameExpansions": {
+      "512": [
+        1
+      ],
+      "1": [
+        1
+      ],
+      "2": [
+        1
+      ],
+      "4": [
+        1
+      ],
+      "33554432": [
+        1
+      ],
+      "8": [
+        1
+      ],
+      "268435456": [
+        1
+      ],
+      "16": [
+        1
+      ],
+      "4194304": [
+        1
+      ],
+      "8388608": [
+        1
+      ],
+      "134217728": [
+        1
+      ],
+      "262144": [
+        1
+      ],
+      "4096": [
+        1
+      ],
+      "1024": [
+        1
+      ],
+      "8192": [
+        1
+      ],
+      "524288": [
+        1
+      ],
+      "16384": [
+        1
+      ],
+      "1048576": [
+        1
+      ],
+      "2147483648": [
+        1
+      ],
+      "2048": [
+        1
+      ],
+      "4294967296": [
+        1
+      ],
+      "536870912": [
+        1
+      ],
+      "8589934592": [
+        1
+      ],
+      "17179869184": [
+        1
+      ],
+      "2097152": [
+        1
+      ],
+      "65536": [
+        0
+      ],
+      "1073741824": [
+        1
+      ]
+    }
+  }
+}
