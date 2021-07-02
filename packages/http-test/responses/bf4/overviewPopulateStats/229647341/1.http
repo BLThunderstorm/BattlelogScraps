@@ -1,0 +1,3 @@
+GET https://battlelog.battlefield.com/bf4/overviewPopulateStats/229647341/o/1/ HTTP/1.1
+X-Requested-With: XMLHttpRequest
+X-AjaxNavigation: 1
