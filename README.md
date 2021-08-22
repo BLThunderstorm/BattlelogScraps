@@ -8,11 +8,11 @@ ___
 ## Embedding this repo in your Javascript software
 First, install this repo first as an NPM package.
 ```bash
-yarn add https://github.com/BLThunderstorm/BattlelogScraps
+yarn add @nefomemes/blscraps-strings
 ```
 Then you can import JSON files from this repo to your code.
 ```ts
-import * as maps from 'battlelogscraps/maps.json';
+import * as maps from '@nefomemes/blscraps-strings/maps.json';
 import { BattlelogClient } from 'battlelog.js';
 import type { Server } from 'battlelog.js';
 let battlelog = new BattlelogClient();
